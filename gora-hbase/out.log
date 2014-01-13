@@ -1,0 +1,109 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Gora :: Hbase 0.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gora-hbase ---
+[INFO] Deleting /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/target
+[INFO] Deleting /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/lib (includes = [*.jar], excludes = [])
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (default) @ gora-hbase ---
+[INFO] Source directory: /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/examples/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ gora-hbase ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ gora-hbase ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ gora-hbase ---
+[INFO] Compiling 9 source files to /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseMapping.java:[26,51] error: package org.apache.hadoop.hbase.io.hfile.Compression does not exist
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseMapping.java:[27,53] error: cannot find symbol
+[ERROR]  class StoreFile
+/home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[37,37] error: cannot find symbol
+[ERROR]  package org.apache.hadoop.hbase.client
+/home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[249,9] error: cannot find symbol
+[ERROR]  class HBaseTableConnection
+/home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[254,24] error: cannot find symbol
+[ERROR]  class HBaseTableConnection
+/home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/util/HBaseByteInterface.java:[58,22] error: BinaryEncoderWithStream is not abstract and does not override abstract method bytesBuffered() in BinaryEncoder
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/util/HBaseByteInterface.java:[60,6] error: constructor BinaryEncoder in class BinaryEncoder cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/util/HBaseByteInterface.java:[64,13] error: cannot find symbol
+[ERROR]  class BinaryEncoderWithStream
+/home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/util/HBaseByteInterface.java:[204,13] error: cannot find symbol
+[ERROR]  variable encoder of type BinaryEncoderWithStream
+/home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseMapping.java:[106,44] error: cannot find symbol
+[ERROR]  class HBaseMappingBuilder
+/home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseMapping.java:[112,44] error: cannot find symbol
+[ERROR]  class HBaseMappingBuilder
+/home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseStore.java:[366,73] error: cannot find symbol
+[ERROR]  class HRegionLocation
+/home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[46,7] error: HBaseTableConnection is not abstract and does not override abstract method setWriteBufferSize(long) in HTableInterface
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[83,33] error: flushCommits() in <anonymous org.apache.gora.hbase.store.HBaseTableConnection$1> cannot override flushCommits() in HTable
+[ERROR]   overridden method does not throw IOException
+/home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[148,14] error: name clash: batch(List<Row>,Object[]) in HBaseTableConnection and batch(List<? extends Row>,Object[]) in HTableInterface have the same erasure, yet neither overrides the other
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[147,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[154,18] error: name clash: batch(List<Row>) in HBaseTableConnection and batch(List<? extends Row>) in HTableInterface have the same erasure, yet neither overrides the other
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[153,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[250,21] error: cannot find symbol
+[ERROR]  class HTable
+/home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[248,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[253,2] error: method does not override or implement a method from a supertype
+[INFO] 21 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.484s
+[INFO] Finished at: Thu Dec 26 22:28:46 PST 2013
+[INFO] Final Memory: 44M/579M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project gora-hbase: Compilation failure: Compilation failure:
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseMapping.java:[26,51] error: package org.apache.hadoop.hbase.io.hfile.Compression does not exist
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseMapping.java:[27,53] error: cannot find symbol
+[ERROR] class StoreFile
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[37,37] error: cannot find symbol
+[ERROR] package org.apache.hadoop.hbase.client
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[249,9] error: cannot find symbol
+[ERROR] class HBaseTableConnection
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[254,24] error: cannot find symbol
+[ERROR] class HBaseTableConnection
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/util/HBaseByteInterface.java:[58,22] error: BinaryEncoderWithStream is not abstract and does not override abstract method bytesBuffered() in BinaryEncoder
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/util/HBaseByteInterface.java:[60,6] error: constructor BinaryEncoder in class BinaryEncoder cannot be applied to given types;
+[ERROR] actual and formal argument lists differ in length
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/util/HBaseByteInterface.java:[64,13] error: cannot find symbol
+[ERROR] class BinaryEncoderWithStream
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/util/HBaseByteInterface.java:[204,13] error: cannot find symbol
+[ERROR] variable encoder of type BinaryEncoderWithStream
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseMapping.java:[106,44] error: cannot find symbol
+[ERROR] class HBaseMappingBuilder
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseMapping.java:[112,44] error: cannot find symbol
+[ERROR] class HBaseMappingBuilder
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseStore.java:[366,73] error: cannot find symbol
+[ERROR] class HRegionLocation
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[46,7] error: HBaseTableConnection is not abstract and does not override abstract method setWriteBufferSize(long) in HTableInterface
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[83,33] error: flushCommits() in <anonymous org.apache.gora.hbase.store.HBaseTableConnection$1> cannot override flushCommits() in HTable
+[ERROR] overridden method does not throw IOException
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[148,14] error: name clash: batch(List<Row>,Object[]) in HBaseTableConnection and batch(List<? extends Row>,Object[]) in HTableInterface have the same erasure, yet neither overrides the other
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[147,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[154,18] error: name clash: batch(List<Row>) in HBaseTableConnection and batch(List<? extends Row>) in HTableInterface have the same erasure, yet neither overrides the other
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[153,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[250,21] error: cannot find symbol
+[ERROR] class HTable
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[248,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java:[253,2] error: method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

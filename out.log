@@ -1,0 +1,212 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Gora
+[INFO] Apache Gora :: Core
+[INFO] Apache Gora :: Hbase
+[INFO] Apache Gora :: Accumulo
+[INFO] Apache Gora :: Cassandra
+[INFO] Apache Gora :: Dynamodb
+[INFO] Apache Gora :: SQL
+[INFO] Apache Gora :: Tutorial
+[INFO] Apache Gora :: Sources-Dist
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Gora 0.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gora ---
+[INFO] Deleting /home/pbansal/Downloads/apache-gora-0.3/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ gora ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Gora :: Core 0.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gora-core ---
+[INFO] Deleting /home/pbansal/Downloads/apache-gora-0.3/gora-core/target
+[INFO] Deleting /home/pbansal/Downloads/apache-gora-0.3/gora-core/lib (includes = [*.jar], excludes = [])
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (default) @ gora-core ---
+[INFO] Source directory: /home/pbansal/Downloads/apache-gora-0.3/gora-core/src/examples/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ gora-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ gora-core ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pbansal/Downloads/apache-gora-0.3/gora-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ gora-core ---
+[INFO] Compiling 81 source files to /home/pbansal/Downloads/apache-gora-0.3/gora-core/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Gora :: Hbase 0.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gora-hbase ---
+[INFO] Deleting /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/target
+[INFO] Deleting /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/lib (includes = [*.jar], excludes = [])
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (default) @ gora-hbase ---
+[INFO] Source directory: /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/examples/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ gora-hbase ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ gora-hbase ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ gora-hbase ---
+[INFO] Compiling 9 source files to /home/pbansal/Downloads/apache-gora-0.3/gora-hbase/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Gora :: Accumulo 0.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gora-accumulo ---
+[INFO] Deleting /home/pbansal/Downloads/apache-gora-0.3/gora-accumulo/lib (includes = [*.jar], excludes = [])
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (default) @ gora-accumulo ---
+[INFO] Source directory: /home/pbansal/Downloads/apache-gora-0.3/gora-accumulo/src/examples/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ gora-accumulo ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ gora-accumulo ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pbansal/Downloads/apache-gora-0.3/gora-accumulo/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ gora-accumulo ---
+[INFO] Compiling 10 source files to /home/pbansal/Downloads/apache-gora-0.3/gora-accumulo/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Gora :: Cassandra 0.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gora-cassandra ---
+[INFO] Deleting /home/pbansal/Downloads/apache-gora-0.3/gora-cassandra/lib (includes = [*.jar], excludes = [])
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (default) @ gora-cassandra ---
+[INFO] Source directory: /home/pbansal/Downloads/apache-gora-0.3/gora-cassandra/src/examples/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ gora-cassandra ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ gora-cassandra ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pbansal/Downloads/apache-gora-0.3/gora-cassandra/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ gora-cassandra ---
+[INFO] Compiling 18 source files to /home/pbansal/Downloads/apache-gora-0.3/gora-cassandra/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Gora :: Dynamodb 0.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gora-dynamodb ---
+[INFO] Deleting /home/pbansal/Downloads/apache-gora-0.3/gora-dynamodb/lib (includes = [*.jar], excludes = [])
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (default) @ gora-dynamodb ---
+[INFO] Source directory: /home/pbansal/Downloads/apache-gora-0.3/gora-dynamodb/src/examples/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ gora-dynamodb ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ gora-dynamodb ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pbansal/Downloads/apache-gora-0.3/gora-dynamodb/src/main/resources
+[INFO] skip non existing resourceDirectory /home/pbansal/Downloads/apache-gora-0.3/gora-dynamodb/conf
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ gora-dynamodb ---
+[INFO] Compiling 7 source files to /home/pbansal/Downloads/apache-gora-0.3/gora-dynamodb/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Gora :: SQL 0.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gora-sql ---
+[INFO] Deleting /home/pbansal/Downloads/apache-gora-0.3/gora-sql/lib (includes = [*.jar], excludes = [])
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (default) @ gora-sql ---
+[INFO] Source directory: /home/pbansal/Downloads/apache-gora-0.3/gora-sql/src/examples/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ gora-sql ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ gora-sql ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pbansal/Downloads/apache-gora-0.3/gora-sql/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:reserve-network-port (reserve-network-port) @ gora-sql ---
+[INFO] Reserved port 43342 for hsqldb.port
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ gora-sql ---
+[INFO] Compiling 15 source files to /home/pbansal/Downloads/apache-gora-0.3/gora-sql/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Gora :: Tutorial 0.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gora-tutorial ---
+[INFO] Deleting /home/pbansal/Downloads/apache-gora-0.3/gora-tutorial/lib (includes = [*.jar], excludes = [])
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (default) @ gora-tutorial ---
+[INFO] Source directory: /home/pbansal/Downloads/apache-gora-0.3/gora-tutorial/src/examples/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ gora-tutorial ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ gora-tutorial ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 4 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ gora-tutorial ---
+[INFO] Compiling 6 source files to /home/pbansal/Downloads/apache-gora-0.3/gora-tutorial/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Gora :: Sources-Dist 0.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sources-dist ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ sources-dist ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ sources-dist ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pbansal/Downloads/apache-gora-0.3/sources-dist/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ sources-dist ---
+[INFO] No sources to compile
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Gora ....................................... SUCCESS [0.721s]
+[INFO] Apache Gora :: Core ............................... SUCCESS [4.501s]
+[INFO] Apache Gora :: Hbase .............................. SUCCESS [4.415s]
+[INFO] Apache Gora :: Accumulo ........................... SUCCESS [2.187s]
+[INFO] Apache Gora :: Cassandra .......................... SUCCESS [2.212s]
+[INFO] Apache Gora :: Dynamodb ........................... SUCCESS [1.560s]
+[INFO] Apache Gora :: SQL ................................ SUCCESS [1.824s]
+[INFO] Apache Gora :: Tutorial ........................... SUCCESS [2.029s]
+[INFO] Apache Gora :: Sources-Dist ....................... SUCCESS [0.021s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 20.637s
+[INFO] Finished at: Mon Dec 30 18:34:31 PST 2013
+[INFO] Final Memory: 94M/757M
+[INFO] ------------------------------------------------------------------------
