@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>gora</name>
+	<comment></comment>
+	<projects>
+		<project>gora-accumulo</project>
+		<project>gora-cassandra</project>
+		<project>gora-core</project>
+		<project>gora-dynamodb</project>
+		<project>gora-hbase</project>
+		<project>gora-sql</project>
+		<project>gora-tutorial</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+</projectDescription>
