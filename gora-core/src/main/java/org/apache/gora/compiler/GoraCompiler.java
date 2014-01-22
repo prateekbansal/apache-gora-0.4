@@ -78,7 +78,7 @@ public class GoraCompiler {
       log.info("The generated artifact will be " + licenseHeader.getLicenseName() + " licensed.");
     }
     GoraCompiler compiler = new GoraCompiler(dest);
-    compiler.enqueue(Schema.parse(src));          // enqueue types
+    compiler.enqueue(new Schema.Parser().parse(src));          // enqueue types
     compiler.compile();                           // generate classes for types
   }
   
@@ -90,7 +90,7 @@ public class GoraCompiler {
        for (File src : srcFiles) {
         log.info("Compiling Schema: " + src + " to: " + dest);
         GoraCompiler compiler = new GoraCompiler(dest);
-        compiler.enqueue(Schema.parse(src));          // enqueue types
+        compiler.enqueue(new Schema.Parser().parse(src));          // enqueue types
         compiler.compile();                           // generate classes for types
   	  }
   	}
@@ -252,7 +252,7 @@ public class GoraCompiler {
         line(0, "public class "+ type
              +" extends PersistentBase {");
         // schema definition
-        line(1, "public static final Schema _SCHEMA = Schema.parse(\""
+        line(1, "public static final Schema _SCHEMA = new Schema.Parser().parse(\""
              +esc(schema)+"\");");
 
         //field information
