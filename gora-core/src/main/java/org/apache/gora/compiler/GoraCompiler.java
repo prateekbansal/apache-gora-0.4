@@ -200,7 +200,7 @@ public class GoraCompiler {
     line(0, "import org.apache.avro.AvroRuntimeException;");
     line(0, "import org.apache.avro.Protocol;");
     line(0, "import org.apache.avro.util.Utf8;");
-    line(0, "import org.apache.avro.ipc.AvroRemoteException;");
+    line(0, "import org.apache.avro.AvroRemoteException;");
     line(0, "import org.apache.avro.generic.GenericArray;");
     line(0, "import org.apache.avro.specific.FixedSize;");
     line(0, "import org.apache.avro.specific.SpecificExceptionBase;");
